@@ -26,7 +26,7 @@ while count < math.log(upper - lower + 1, 2):
 
 	# Condition testing
 	if x == guess:
-		print("Congratulations you did it in ",
+		print("Congratulations you are the wiser ",
 			count, " try")
 		# Once guessed, loop will break
 		break
