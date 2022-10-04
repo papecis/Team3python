@@ -1,4 +1,5 @@
 # Team3python project
+User inputs their name and you get the greeting and welcoming to play the game
 User inputs the lower bound and upper bound of the range.
 The compiler generates a random integer between the range and store it in a variable for future references.
 For repetitive guessing, a while loop will be initialized.
