@@ -2,9 +2,10 @@ import random
 import math
 import winsound
 
-person = input('Enter your name: ')
-print('Hello', person)
-print("Welcome to the guessing game!")
+print("Hello what is your name?")
+person = input()
+print("Okay", person, "welcome to the guessing game", "would you like to play?",
+      "\n I will choose a number from a range of numbers you will input. Can you guess the number I choose?\n")
 # Taking Inputs
 lower = int(input("Enter Lower bound:- "))
 
@@ -14,7 +15,9 @@ upper = int(input("Enter Upper bound:- "))
 # generating random number between
 # the lower and upper
 x = random.randint(lower, upper)
-print("\n\tYou've only ", round(math.log(upper - lower + 1, 2)), "chances to guess the right number!\n")
+print("\nYou've only ",
+      round(math.log(upper - lower + 1, 2)),
+      " chances to guess the right number!\n", 'Let the game begin\n')
 
 # Initializing the number of guesses.
 count = 0
